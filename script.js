@@ -5,6 +5,7 @@ const obj = {
 
 Object.values(obj).forEach(element => {
    console.log(element); 
+   debugger;
 });
 
 
