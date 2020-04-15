@@ -1,5 +1,5 @@
 const obj = {
-    name0: 'Saly',
+    name0: 'Sally',
     name1: 'Bob',
     name2: 'Diego',
     name3: 'git branch',
