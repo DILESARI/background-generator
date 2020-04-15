@@ -1,0 +1,33 @@
+/*Selector {
+	Property: value;
+}*/
+body {
+	background-image: url(background1.jpg);
+	background-size: cover;
+}
+h2 {
+	color: #99A637;
+	text-align: center;
+	border: 3px solid rgba(255,176,170,0.5);
+	cursor: pointer;
+}
+li{
+	list-style: none;
+}
+
+p{
+	color: red;
+}
+
+.tipo1{
+	border: 2px dashed #99A637;
+}
+.tipo2{
+	border: 2px solid pink;
+	color: blue;
+}
+
+#div1{
+	color: purple;
+	border: 2px solid black;
+}
