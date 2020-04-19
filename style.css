@@ -1,33 +1,27 @@
-/*Selector {
-	Property: value;
-}*/
 body {
-	background-image: url(background1.jpg);
-	background-size: cover;
-}
-h2 {
-	color: #99A637;
-	text-align: center;
-	border: 3px solid rgba(255,176,170,0.5);
-	cursor: pointer;
-}
-li{
-	list-style: none;
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
 
-p{
-	color: red;
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
 }
 
-.tipo1{
-	border: 2px dashed #99A637;
-}
-.tipo2{
-	border: 2px solid pink;
-	color: blue;
-}
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
 
-#div1{
-	color: purple;
-	border: 2px solid black;
 }

@@ -1,15 +1,23 @@
-const obj = {
-    name0: 'Saly',
-    name1: 'Bob',
-    name2: 'Diego',
-    name3: 'git branch',
-    name4: 'git branch littlefeature',
-    name5: 'git checkout littlefeature',
+var css = document.querySelector("h3");
+var color1 = document.querySelector(".color1");
+var color2 = document.querySelector(".color2");
+var body = document.getElementById("gradient");
+
+function setGradient() {
+	body.style.background = "linear-gradient(to right, "+ color1.value + ", " + color2.value + ")";
+	css.textContent = body.style.background + ";";
 }
 
-Object.values(obj).forEach(element => {
-   console.log(element); 
-   debugger;
-});
+color1.addEventListener("input", setGradient);
 
+color2.addEventListener("input", setGradient);
 
+// color1.addEventListener("input", function(){
+// 	"linear-gradient(to right, "+ color1.value + ", " + color2.value + ")";
+// 	console.log(color1.value);
+// })
+
+// color2.addEventListener("input", function(){
+// 	"linear-gradient(to right, "+ color1.value + ", " + color2.value + ")";
+// 	console.log(color2.value);
+// })
