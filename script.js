@@ -8,6 +8,8 @@ function setGradient() {
 	css.textContent = body.style.background + ";";
 }
 
+debugger;
+
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
